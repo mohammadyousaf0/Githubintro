@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+#wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
 header nav ul {
     display: flex;
     list-style: none;
@@ -14,4 +25,26 @@ header nav ul li {
     text-align: center;
     align-content: center;
     margin: 0 auto;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+section p:first-of-type {
+    margin-bottom: 10px;
+}
+
+section :nth-of-type(2) {
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
 }
